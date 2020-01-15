@@ -1,0 +1,88 @@
+[2020-01-15 14:14:43,479] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:14:43,501] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:15:59,745] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:15:59,754] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:18:44,408] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:18:44,434] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:23:45,871] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
+[2020-01-15 14:23:45,879] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at yashodperera.githubConnectorService.___init.yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService:7)
+	at yashodperera.githubConnectorService.___init.$lambda$yashodperera_githubConnectorService_0_1_0__stop_(githubConnectorService)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:426)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:218)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:191)
+	at org.ballerinalang.jvm.scheduling.Scheduler.start(Scheduler.java:178)
+	at yashodperera.githubConnectorService.___init.$moduleStop(githubConnectorService)
+	at yashodperera.githubConnectorService.___init$SignalListener.run(Unknown Source)
+ 
