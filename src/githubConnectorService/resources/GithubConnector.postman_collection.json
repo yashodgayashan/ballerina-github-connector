@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "b49d82ef-45f8-4db5-b814-f02019f25614",
+		"name": "GithubConnector",
+		"description": "This is the sample github connector with ballerina",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllIssues",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ4NXQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJraWQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ5YXNob2RAd3NvMi5jb20iLCJhdWQiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwibmJmIjoxNTc2NjQ5OTI4LCJhenAiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwic2NvcGUiOiJvcGVuaWQiLCJpc3MiOiJodHRwczpcL1wvaWRlbnRpdHkuY2xvdWQud3NvMi5jb206NDQzXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNTc2NjUzNTI4LCJpYXQiOjE1NzY2NDk5MjgsImp0aSI6IjlmYjhjOGMyLWI3MjEtNGFkYy05ZDk5LTZjMWU1MDBhZDgyMSJ9.SaZPNrj5-GiSsF-QwxO2482X6uVKBiQUz1S7fcfSsDkiTfF35BwzL-ZRghaU2efdDzfCh-KuPIo6Ndpeko-Hx6nd9cps6Yy79Swmsv3AKobFEHcQh2nSNOLZ5BATJyALluBgvA3Z6rOv225dFFNrWczqcsMsDjCLhm_pg_tlc3mQlifH0GWGQiABqJ4eTQzGNK09R0A4xq02gAII_pVegWqE6x-RokvBmfU5Bu5dIvRZcj7BslgloQ5OV3h04V4NjjVOrpowKfq2jV2H76u63tazCBaogaQINrV_AQd56uIkT5ERBzAh_C6UdkpXY_hy8chlKYQ8Nf7ZIGVzEV1fug",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/get-issues/yashodgayashan/ballerina-github-connector",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"get-issues",
+						"yashodgayashan",
+						"ballerina-github-connector"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetIssue",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ4NXQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJraWQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ5YXNob2RAd3NvMi5jb20iLCJhdWQiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwibmJmIjoxNTc2NjQ5OTI4LCJhenAiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwic2NvcGUiOiJvcGVuaWQiLCJpc3MiOiJodHRwczpcL1wvaWRlbnRpdHkuY2xvdWQud3NvMi5jb206NDQzXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNTc2NjUzNTI4LCJpYXQiOjE1NzY2NDk5MjgsImp0aSI6IjlmYjhjOGMyLWI3MjEtNGFkYy05ZDk5LTZjMWU1MDBhZDgyMSJ9.SaZPNrj5-GiSsF-QwxO2482X6uVKBiQUz1S7fcfSsDkiTfF35BwzL-ZRghaU2efdDzfCh-KuPIo6Ndpeko-Hx6nd9cps6Yy79Swmsv3AKobFEHcQh2nSNOLZ5BATJyALluBgvA3Z6rOv225dFFNrWczqcsMsDjCLhm_pg_tlc3mQlifH0GWGQiABqJ4eTQzGNK09R0A4xq02gAII_pVegWqE6x-RokvBmfU5Bu5dIvRZcj7BslgloQ5OV3h04V4NjjVOrpowKfq2jV2H76u63tazCBaogaQINrV_AQd56uIkT5ERBzAh_C6UdkpXY_hy8chlKYQ8Nf7ZIGVzEV1fug",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/get-issue/yashodgayashan/ballerina-github-connector/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"get-issue",
+						"yashodgayashan",
+						"ballerina-github-connector",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPersonalIssues",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ4NXQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJraWQiOiJNV1JqTXpBeU1HUXlZamt6Wm1VMk5EWmhaVGs1TmpZeU5qWTNZemRsTVRoa05HUTBNbVJrTlEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ5YXNob2RAd3NvMi5jb20iLCJhdWQiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwibmJmIjoxNTc2NjQ5OTI4LCJhenAiOiI1b2tudkJyNjR4VWY5S2hkQ3EzeVo3alFHNVFhIiwic2NvcGUiOiJvcGVuaWQiLCJpc3MiOiJodHRwczpcL1wvaWRlbnRpdHkuY2xvdWQud3NvMi5jb206NDQzXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNTc2NjUzNTI4LCJpYXQiOjE1NzY2NDk5MjgsImp0aSI6IjlmYjhjOGMyLWI3MjEtNGFkYy05ZDk5LTZjMWU1MDBhZDgyMSJ9.SaZPNrj5-GiSsF-QwxO2482X6uVKBiQUz1S7fcfSsDkiTfF35BwzL-ZRghaU2efdDzfCh-KuPIo6Ndpeko-Hx6nd9cps6Yy79Swmsv3AKobFEHcQh2nSNOLZ5BATJyALluBgvA3Z6rOv225dFFNrWczqcsMsDjCLhm_pg_tlc3mQlifH0GWGQiABqJ4eTQzGNK09R0A4xq02gAII_pVegWqE6x-RokvBmfU5Bu5dIvRZcj7BslgloQ5OV3h04V4NjjVOrpowKfq2jV2H76u63tazCBaogaQINrV_AQd56uIkT5ERBzAh_C6UdkpXY_hy8chlKYQ8Nf7ZIGVzEV1fug",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/get-issues/yashodgayashan/ballerina-github-connector/yashodgayashan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"get-issues",
+						"yashodgayashan",
+						"ballerina-github-connector",
+						"yashodgayashan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostIssue",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer d72e02954614fe74a4a633f77dd9438a061558cc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/post-issue/yashodgayashan/ballerina-github-connector?title=check&body=hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"post-issue",
+						"yashodgayashan",
+						"ballerina-github-connector"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "check"
+						},
+						{
+							"key": "body",
+							"value": "hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCollacorator",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer d72e02954614fe74a4a633f77dd9438a061558cc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/add-collaborator/yashodgayashan/ballerina-github-connector/KanchanaJayasinghe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"add-collaborator",
+						"yashodgayashan",
+						"ballerina-github-connector",
+						"KanchanaJayasinghe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCollacorator",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer d72e02954614fe74a4a633f77dd9438a061558cc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/remove-collaborator/yashodgayashan/ballerina-github-connector/KanchanaJayasinghe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"remove-collaborator",
+						"yashodgayashan",
+						"ballerina-github-connector",
+						"KanchanaJayasinghe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCollacorator",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer d72e02954614fe74a4a633f77dd9438a061558cc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9080/github-connector/get-collaborator/yashodgayashan/ballerina-github-connector",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9080",
+					"path": [
+						"github-connector",
+						"get-collaborator",
+						"yashodgayashan",
+						"ballerina-github-connector"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
