@@ -133,12 +133,37 @@ service githubConnector on ep0 {
         var response = clientEndpoint->delete("/repos/" + <@untaineted>userName.toString() + "/" + <@untainted>repoName.toString() + "/collaborators/" +<@untainted>collaborator.toString(), request);
         if (response is http:Response) {
             var contentVal = response.getJsonPayload();
-                error? result = caller->respond(response);
-           
+            error? result = caller->respond(response);   
         } else {
             log:printInfo("this is not http reponse");
         }
     }
+
+    @http:ResourceConfig {
+        methods: ["GET"],
+        path: "/get-collaborator/{userName}/{repoName}"
+    }
+    resource function GetCollaborators(http:Caller caller, http:Request req, string userName, string repoName) returns error? {
+        http:Request request = new;
+        request.addHeader("Authorization", "Bearer d72e02954614fe74a4a633f77dd9438a061558cc");  
+        var response = clientEndpoint->delete("/repos/" + <@untaineted>userName.toString() + "/" + <@untainted>repoName.toString() + "/collaborators" , request);
+        if (response is http:Response) {
+            var contentVal = response.getJsonPayload();
+            error? result = caller->respond(response);   
+        } else {
+            log:printInfo("this is not http reponse");
+        }
+    }
+///repos/:owner/:repo/collaborators
+    // show collaborators
+    // add comments
+    // show comments
+    // add assigns
+    // add labels
+    // remove assigness
+    // remove assignees
+
+
 }
 
 function getPersonalIssues(json[] issueList, string name) returns json | error {
