@@ -3,7 +3,7 @@ import ballerina/log;
 import ballerina/io;
 http:Client clientEndpoint = new ("https://api.github.com");
 
-const string ACCESS_TOKEN = "Bearer ff082f0193d271b3263f51177150b31dc3c0de3d";
+const string ACCESS_TOKEN = "Bearer 7f4de8d30bc42f371ce52af721f45893b7462343";
 
 listener http:Listener ep0 = new (9080);
 
@@ -14,7 +14,7 @@ service githubConnector on ep0 {
 
     @http:ResourceConfig {
         methods: ["GET"],
-        path: "/get-issues/{userName}/{repoName}"
+        path: GET_ALL_ISSUES_PATH
     }
     resource function getAllIssues(http:Caller caller, http:Request req, string userName, string repoName) returns error? {
 
@@ -81,7 +81,7 @@ service githubConnector on ep0 {
         methods: ["POST"],
         path: "/post-issue/{userName}/{repoName}"
     }
-    resource function postIssue(http:Caller caller, http:Request req, string userName, string repoName) returns error? {
+    resource function postIssue(http:Caller caller, http:Request req, string userName, string repoName) returns @untainted error? {
         string? title = req.getQueryParamValue("title");
         string? body = req.getQueryParamValue("body");
         var rest = req.getJsonPayload();
@@ -89,8 +89,10 @@ service githubConnector on ep0 {
             io:println(rest);
             http:Request request = new;
             request.addHeader("Authorization", ACCESS_TOKEN);
-            io:println(<@untainted>rest.body.toString());
-            request.setPayload({"title": check <@untainted>rest.title, "body":check <@untainted>rest.body});
+            json valu = check rest.body;
+            string val = valu.toJsonString();
+            io:println(val);
+            request.setPayload({"title": check <@untainted>rest.title, "body": <@untainted>val});
             var response = clientEndpoint->post("/repos/" + <@untaineted>userName.toString() + "/" + <@untainted>repoName.toString() + "/issues", request);
             http:Response res;
             if (response is http:Response) {
